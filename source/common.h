@@ -36,6 +36,7 @@ const int pin_to_gpio_rev2[41];
 const int pin_to_gpio_rev3[41];
 const int (*pin_to_gpio)[41];
 int gpio_direction[54];
+int gpio_orig_function[54];
 rpi_info rpiinfo;
 int setup_error;
 int module_setup;
